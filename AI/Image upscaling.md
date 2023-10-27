@@ -11,26 +11,25 @@ altitude: 0.0000
 
 ## Intro
 
-An overview on deep learning which is a machine learning technique use to build multiple AI tools.
+This will be a quick overview on a deep learning tool. Deep learning is a machine learning technique which can be used to create interactive chat bots, automate image coloring, improve voice and image recognition, etc.
 
-There will be a focus on the use of deep neural networks (DNN) to upscale images from low resolution (LR) to high resolution (HR) using 
-ERSGAN
+The tool used will allow upscaling images from low resolution (LR) to high resolution (HR) using ERSGAN
 
 ## Deep learning
 
 Deep learning is a subset of machine learning. It teaches computers to learn from data to make decisions and predictions. The decisions and predictions are improved as more training data is fed to the model.
+
+DLSS, which is provided in Nvidia cards, does real-time deep learning to upscale rendering in video games
 
 ![b1bedf84ad3d9fc6bc1be2946b36e657.png](_resources/b1bedf84ad3d9fc6bc1be2946b36e657.png)
 
 ## ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks
 
 - Trained with low resolution and high resolution images
-- Checks that the generated high resolution file is similar to the lower resolution one
+- Checks that the generated high resolution file is similar to the lower resolution one (GAN)
 
 ![9230a974c7ac2cf1d6ebd7341da34d95.png](_resources/9230a974c7ac2cf1d6ebd7341da34d95.png)
 
-
-DLSS (Nvidia cards) does real-time deep learning to upscale images in-game 
 
 ## Playing with ESRGAN
 
@@ -38,7 +37,6 @@ We will be using colab to run the code on the cloud
 
 https://colab.research.google.com/drive/1k2Zod6kSHEvraybHl50Lys0LerhyTMCo?usp=sharing
 
-![77d6b36859b58f70eeb15c2a7cc2fe8e.png](_resources/77d6b36859b58f70eeb15c2a7cc2fe8e.png)
 
 Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
 
@@ -57,7 +55,9 @@ Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
   -v                   verbose output
 ```
 
-**References** 
+![77d6b36859b58f70eeb15c2a7cc2fe8e.png](_resources/77d6b36859b58f70eeb15c2a7cc2fe8e.png)
+
+## **References** 
 
 https://esrgan.readthedocs.io/en/latest/
 
