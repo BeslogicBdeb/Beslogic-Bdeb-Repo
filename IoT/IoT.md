@@ -1,8 +1,6 @@
 # Introduction to IoT (micro:bit)
 
-Reference: 
-
-[micro:bit developer community and technical resources](https://tech.microbit.org/)
+Reference: [micro:bit developer community and technical resources](https://tech.microbit.org/)
 
 # What is it ?
 
