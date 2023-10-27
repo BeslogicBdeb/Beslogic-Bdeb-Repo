@@ -10,7 +10,7 @@ The micro:bit is a compact, educational microcontroller board with an **ARM Cort
 
 # Design
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled.png)
+![Untitled](./Untitled.png)
 
 # Hardware
 
@@ -22,15 +22,15 @@ An **interface processor** is connected to the application processor and manages
 
 [schematics](https://tech.microbit.org/hardware/schematic/) → detailed component data and connectivity of the device
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%201.png)
+![Untitled](./Untitled%201.png)
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%202.png)
+![Untitled](./Untitled%202.png)
 
 [reference design](https://tech.microbit.org/hardware/reference-design) → complete module design
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%203.png)
+![Untitled](./Untitled%203.png)
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%204.png)
+![Untitled](./Untitled%204.png)
 
 # Firmware
 
@@ -39,14 +39,14 @@ An **interface processor** is connected to the application processor and manages
 - Includes **drivers** for the onboard hardware components and a **runtime environment** for executing user-written code.
 - Provides **APIs** (Application Programming Interfaces) that enable developers to interact with the micro:bit’s hardware resources easily
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%205.png)
+![Untitled](./Untitled%205.png)
 
 > ⚠️The flash file system presented on the micro:bit drive is entirely virtual. It is not backed by real memory, and this is why the drive ejects itself after new files are written. When a file is dropped onto the MICROBIT drive, instead of being written into storage memory (like a normal USB memory stick), it is streamed to the target MCU.
 > 
 
 # Software
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%206.png)
+![Untitled](./Untitled%206.png)
 
 There are actually two chips on the micro:bit, one that is running the **DAPlink** software entirely to facilitate the flashing and one that actually runs the user’s code.
 
@@ -65,9 +65,9 @@ There are actually two chips on the micro:bit, one that is running the **DAPlin
 
 It is a free, open source platform for creating projects with the BBC micro:bit
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%207.png)
+![Untitled](./Untitled%207.png)
 
-![Untitled](Introduction%20to%20IoT%20(micro%20bit)%20501c3f957a4646bbb2d7f995039c3c5c/Untitled%208.png)
+![Untitled](./Untitled%208.png)
 
 ### MicroPython
 
