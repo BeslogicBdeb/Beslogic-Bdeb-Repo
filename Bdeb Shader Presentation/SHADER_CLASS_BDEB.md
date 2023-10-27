@@ -16,7 +16,7 @@ Go to the website, click on `Lite` and select an `Empty` project.
 
 ## Creating a shader pass
 
-To render things to our black screen we will need to create a shader pass. A shader pass consiste of 2 things, a vertex shader and a fragment shader (also called pixel shader).
+To render things to our black screen we will need to create a shader pass. A shader pass consists of 2 things, a vertex shader and a fragment shader (also called pixel shader).
 
 To create a shader pass, right click in the pipeline window and click `Create Shader Pass`.
 
@@ -56,7 +56,7 @@ The first shader in the pipeline is the vertex shader. It's used to perform tran
 
 We always need to assign the `gl_Position` from OpenGL so that it knows where to place to vertex in 3D space.
 
-For now, let's just scale it down a little bit and assigne the gl_Position variable.
+For now, let's just scale it down a little bit and assign the gl_Position variable.
 
 First, let's receive the vertex data for each point of the triangle with and `in` param.
 
@@ -75,7 +75,7 @@ Then, we can scale down this `pos` variable by 2
 vec2 downPos = pos / 2.0;
 ```
 
-Finally, we assign it to `gl_Position` (This variable is a vec4, for this reason we need to specify the z, w value)
+Finally, we assign it to `gl_Position` (This variable is a vec4, for this reason we need to specify the z and w value)
 
 ```
 gl_Position = vec4(downPos, 0.0, 1);
